@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import Form from '@/components/Form'
+import Buttons from '@/components/Button'
 
 
 export default function Home() {    
@@ -13,21 +15,7 @@ export default function Home() {
         <link rel="icon" href="./Instagram_icon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-       <div className='container'>
-
-        <div className="login-container">
-          <h1>Instagram</h1>
-          <input type="text" class="form-input" placeholder="Phone number, username, or email"/>
-          <input type="password" class="form-input" placeholder="Password"/>
-          <br></br>
-          <button className="btn">Log in</button>
-        </div>
-
-        <div className="or">OR</div>
-        
-        
-      </div>
-        
+        <Form></Form>
       </main>
     </>
   )

@@ -1,26 +1,14 @@
 :root {
-  --blue: rgb(70, 166, 218);
+  --blue: rgb(82, 194, 255);
   --offwhite: #fafafa;
   --lightgrey: #dbdbdb; 
+  --darkgrey: rgb(110, 110, 110);
 }
 
-.title {
-  text-align: center;
-  }
-  
-  .login-container a:hover {
-    text-decoration: underline;
-  }
-  
-  .login-container a {
-    text-decoration: none;
-    color: var(--blue);
-    font-size: 0.9em;
-  }
-  
+   
   .or {
-    color: #999;
-    margin: 20px 0;
+    color: var(--darkgrey);
+    margin: 20px 15px;
     text-align: center;
   }
   
@@ -33,6 +21,4 @@
     width: calc(100% - 30px);
   }
 
-  .container {
-    text-align: center;
-  }
+  
