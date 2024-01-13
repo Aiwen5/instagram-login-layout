@@ -5,14 +5,31 @@
     justify-content: center;
     margin: auto;
     margin-top: 135px;
-    border-color: var(--lightgrey);
+
     
 } 
 
 .formContainer {
-    color: var(--lightgrey);
+    border: 1px solid var(--lightgrey);
 }
 
-.instagramLogo {
-    margin: auto;
+.fieldSet {
+    border: none;
 }
+
+.fieldSet img {
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-height: 600px) {
+    .formOuterContainer {
+        margin-top: 0;
+    }
+  }
+  
+  @media only screen and (max-height: 900px) {
+    .footer {
+        margin-top: 100px;
+    }
+  }

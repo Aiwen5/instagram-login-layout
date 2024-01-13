@@ -1,5 +1,6 @@
 import Buttons from '../Button'
 import styles from './Form.module.css'
+import Footer from '../Footer'
 
 export default function() {
     return(
@@ -22,10 +23,14 @@ export default function() {
                                     
                                 </div>
                                 <div className={styles.lineBreak}>
-                                    <hr width="40%" size="2"/>
                                     <div className="or">OR</div>
-                                    <hr width="40%" size="2"/>
-                                    
+                                </div>
+                                <div>
+                                    <a className='facebook' href='www.facebook.com'>Log in with Facebook</a>
+                                </div>
+                                <br></br>
+                                <div>
+                                    <a className='forgot' href=''>Forgot password?</a>
                                 </div>
                             
                             
@@ -34,6 +39,8 @@ export default function() {
                         </fieldset>
                     </form>
                 </div>
+            
+                <Footer></Footer>
 
             </div>
         </>
