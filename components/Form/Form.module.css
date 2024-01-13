@@ -15,21 +15,38 @@
 
 .fieldSet {
     border: none;
+    font-family: Helvetica, sans-serif;
 }
 
 .fieldSet img {
     margin: 0 auto;
 }
 
+.signUpBox {
+    height: 60px;
+    width: auto;
+    border: 1px solid var(--lightgrey);
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
 
-@media only screen and (max-height: 600px) {
+.signUpBox a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.signUpBox p {
+    font-size: .9em;
+    margin: auto;
+}
+
+
+@media only screen and (max-height: 700px) {
     .formOuterContainer {
         margin-top: 0;
     }
   }
   
-  @media only screen and (max-height: 900px) {
-    .footer {
-        margin-top: 100px;
-    }
-  }

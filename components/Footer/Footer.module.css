@@ -6,4 +6,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
   }

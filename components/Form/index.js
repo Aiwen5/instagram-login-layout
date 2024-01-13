@@ -15,8 +15,8 @@ export default function() {
         
                                 <div className="login-container">
                                     
-                                    <input type="text" class="form-input" placeholder="Phone number, username, or email"/>
-                                    <input type="password" class="form-input" placeholder="Password"/>
+                                    <input type="text" className="form-input" placeholder="Phone number, username, or email"/>
+                                    <input type="password" className="form-input" placeholder="Password"/>
                                     <br></br>
                                     <Buttons></Buttons> 
                                     <br></br>
@@ -37,11 +37,18 @@ export default function() {
                             
                             </div>
                         </fieldset>
+                        
                     </form>
+                    
                 </div>
-            
+                <div className={styles.signUpBox}>
+                    <p>Don't have an account? <a href=''>Sign up</a></p>
+                </div>
+                <div className='getTheApp'>
+                    <p>Get the app.</p>
+                </div>
                 <Footer></Footer>
-
+            
             </div>
         </>
     )
